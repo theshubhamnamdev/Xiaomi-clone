@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid goldenrod; */
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 20px auto; */
+    background-color: #edf9f5;
+    padding: 30px;
+}
+
+.text{
+    width: 60%;
+    height: 600px;
+    color:#01553d;
+    background-color: #edf9f5;
+    /* margin-left: 40px; */
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.text .logo img{
+    width: 120px;
+    /* margin-top: 10px; */
+} 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .menu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+     font-size: 23px;
+     margin-right: 40px; 
+     /* border: 1px solid red; */
+}
+.text h6{
+    font-size: 18px;
+    /* padding-top: 100px; */
+    /* padding-bottom: 20px; */
+    font-weight: 400;
+    color: gray;
+}
+.text h2{
+    
+    font-size: 35px;
+    font-family:  Arial, sans-serif;
+    padding-bottom: 20px;
+
+}
+
+.text p{
+    font-size: 18px;
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+/* .btn{
+    margin-bottom: 40px;
+    
+} */
+.btn button{
+    width: 100px;
+    height: 35px;
+    border:none;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.red {
+   background-color: red;
+   color: #ffff;
+   margin-right: 20px;
+}
+.grn{
+    background-color: aquamarine;
+    color: #01553d;
+    font-weight: 700;
+}
+
+ .container .image{
+    width: 40%;
+    height: 600px;
+    background-color: #01553d;
+    border-bottom-left-radius:50px ;
+    
+}
+.image .img_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    /* border: 1px solid red; */
+
+}
+.image .img_btn button{
+   
+    width: 110px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+}
+.bg{
+    background-color: transparent;
+    color:  aquamarine;
+}
+
+.img_section span{
+    display: flex;
+}
+
+.img-1 img{
+    width: 140px;
+    height: 150px;
+    margin-top: 60px;
+    position: relative;
+    right: 40px;
+}
+.img-2 img{
+    width: 160px;
+    height: 200px;
+    position: relative;
+    right: 20px;
+    margin-top: 25px;
+    border-top-right-radius:50px ;
+}
+
+.img-4 img{
+    width: 150px;
+    height: 150px;
+   position: relative;
+   right: 30px;
+    margin-top: 30px;
+}
+
+.img-3 img{
+    width: 150px;
+    height: 190px;
+    position: relative;
+    right: 50px;
+    margin-top: 10px;
+    border-bottom-left-radius:50px ;
+}
